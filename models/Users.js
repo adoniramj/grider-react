@@ -1,8 +1,11 @@
+// This file creates the schemas 
 const mongoose = require('mongoose');
 
-const { Schema } = mongoose
+const {
+  Schema
+} = mongoose
 
-const userSchema = new Schema( {
+const userSchema = new Schema({
   googleId: String
 })
 
