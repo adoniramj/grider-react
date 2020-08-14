@@ -47,4 +47,5 @@ Thumbs.db
 
 notes.md
 
-config/
+config/notes.txt
+config/dev.js
