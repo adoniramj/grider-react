@@ -49,3 +49,6 @@ notes.md
 
 config/notes.txt
 config/dev.js
+
+client/node_modules
+client/build
