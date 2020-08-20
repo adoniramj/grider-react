@@ -1,5 +1,6 @@
 const express = require('express')
 const mongoose = require('mongoose')
+const fs = require('fs')
 
 const keys = require('./config/keys')
 
@@ -12,6 +13,7 @@ mongoose.connect(keys.mongoURI, {
 })
 
 const app = express()
+
 
 require('./utils/cookies')(app)
 require('./routes/authRoutes')(app)
